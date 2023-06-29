@@ -1,0 +1,18 @@
+package linkedList;
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		
+		Linkedlist print = new Linkedlist();
+		
+		print.insertFirst(99);
+		print.insertFirst(55);
+		print.insertFirst(66);
+		
+		print.printLinkedListItems();
+		
+
+	}
+
+}

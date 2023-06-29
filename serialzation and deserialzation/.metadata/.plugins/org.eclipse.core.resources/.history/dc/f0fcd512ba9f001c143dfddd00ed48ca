@@ -1,0 +1,39 @@
+package mypackage;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+class Industry{
+	public int id;
+	public String Name;
+	public String ITcode;
+	public int mob;
+	
+	public Industry(int id,String Name,String ITcode,int mob){
+		this.id = id;
+		this.Name = Name;
+		this.ITcode = ITcode;
+		this.mob = mob;
+	}
+}
+
+
+public class EX3 {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+		Industry Ind = new  Industry(10, "sam", "ASF2D", 9999);
+		FileOutputStream FInd = new FileOutputStream("E:\\Eclipse\\serialzation and deserialzation\\Industry");
+		ObjectOutputStream out = new ObjectOutputStream(FInd);
+		
+		out.writeObject(Ind);
+		out.close();
+		System.out.println("File is Saved");
+		
+		
+	}
+
+}

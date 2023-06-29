@@ -1,0 +1,36 @@
+package strings;
+
+
+class mornings {
+	public String mor (String a , String b) {
+		
+		return a + b;
+	}
+}
+class coffee extends mornings{
+	public String cof (String a , String b) {
+		return a + b;
+	}
+}
+class niceDay extends coffee{
+	public String day (String a , String b) {
+		return a+b;
+		
+	}
+}
+
+public class Inheritsone {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		niceDay day = new niceDay();
+		System.out.println(day.mor("good" , "morning" ));
+		System.out.println(day.cof("have a " , "coffee"));
+		System.out.println(day.day("have a ", "nice day"));
+		
+		
+		
+
+	}
+
+}

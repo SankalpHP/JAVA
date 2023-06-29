@@ -1,0 +1,52 @@
+package product;
+
+import java.util.Scanner;
+
+public class Flipcart {
+	
+	private String Name;
+	private int id;
+	private int price;
+	
+	private static String Otherdetails = "cloud retailer";
+	
+
+	
+	
+	
+	public void readData() {
+		Scanner obj1 = new Scanner(System.in);
+		System.out.println("enter a Name =");
+		Name = obj1.nextLine();
+		System.out.println("enter a id =");
+		id =  obj1.nextInt();
+		System.out.println("enter a price = ");
+		price = obj1.nextInt();
+		
+		obj1.close();
+		
+		Scanner obj2 = new Scanner(System.in);
+		System.out.println("enter a Name =");
+		Name = obj2.nextLine();
+		System.out.println("enter a id =");
+		id =  obj2.nextInt();
+		System.out.println("enter a price = ");
+		price = obj2.nextInt();
+		
+		obj2.close();
+		
+		
+	}
+	
+	
+	public void PrintData() {
+		System.out.println("id = " + id);
+		System.out.println("Name = " + Name);
+		System.out.println("price = " + price);
+	}
+	
+	public static void printDetails() {
+		System.out.println("seller = " + Otherdetails);
+	}
+
+}

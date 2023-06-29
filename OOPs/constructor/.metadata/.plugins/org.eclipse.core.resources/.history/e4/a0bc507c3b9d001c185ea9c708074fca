@@ -1,0 +1,34 @@
+package poly;
+
+
+ class EnglishMessage{
+	 public void sayhi() {
+		 System.out.println("hi");
+	 }
+	 public void sayhello() {
+		 System.out.println("Hello");
+	 }
+	 public void sayMorning() {
+		 System.out.println("good moring");
+	 }
+	 
+ }
+ 
+ class HindiMessage extends EnglishMessage{
+
+	 public void sayMorning() {
+		 System.out.println("subhodaya");
+	 }
+ }
+
+public class Overrides {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         HindiMessage msg = new HindiMessage();
+         msg.sayhi();
+         msg.sayhello();
+         msg.sayMorning();
+	}
+
+}

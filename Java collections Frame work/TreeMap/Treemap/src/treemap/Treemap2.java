@@ -1,0 +1,40 @@
+package treemap;
+
+import java.util.Set;
+import java.util.TreeMap;
+
+public class Treemap2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          
+		TreeMap<Integer,Integer> ts = new TreeMap<Integer,Integer>();
+		
+		//avoid duplication and print in a Order
+		
+		ts.put(1000, 23);
+		ts.put(4568, 10);
+		ts.put(76544, 35);
+		ts.put(2456, 56);
+		ts.put(9986,13355);
+		
+		ts.put(1000, 25);
+		ts.put(76544, 30);
+		ts.put(2456, 40);
+		
+		System.out.println(ts.clone());
+		System.out.println(ts.size());
+		System.out.println(ts.hashCode());
+		System.out.println(ts.get(1000));
+		System.out.println(ts.get(76544));
+		
+		System.out.println("==================================");
+		
+		Set<Integer>keys = ts.keySet();
+		
+		for(int k : keys )
+			System.out.println(k);
+		
+	}
+
+}

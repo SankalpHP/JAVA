@@ -1,0 +1,25 @@
+package multiplication;
+
+import java.util.Scanner;
+
+public class mul {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a , b , c;
+		Scanner obj  = new Scanner(System.in);
+	
+	    System.out.println("Enter first Value ");
+	    a = Integer.parseInt(obj.nextLine());
+	    System.out.println("Enter second Value");
+	    b = Integer.parseInt(obj.nextLine());
+	    
+	    c = a * b ;
+	    
+	    System.out.println("final Output = " + c );
+
+		
+	}
+
+}

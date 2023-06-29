@@ -1,0 +1,27 @@
+package printbyforloop;
+
+import java.util.Scanner;
+
+public class byforloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		for(int a = 1 ; a<= 5 ; a++) {
+			
+			Scanner no = new Scanner(System.in);
+			System.out.println("enter a valve");
+			a=no.nextInt();
+			for(int temp = a ; temp <=5 ;  temp++);
+			System.out.println(temp);
+			
+		
+		}
+	
+		
+		
+
+	}
+
+}

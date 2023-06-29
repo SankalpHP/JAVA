@@ -1,0 +1,37 @@
+package inherits;
+
+
+class algebra {
+	
+	public int add(int a , int b) {
+		return a+b;
+	}
+	
+	public int mul (int a , int b) {
+		return a * b;
+	}
+}
+
+    class totalmath extends algebra{
+    	public int sub (int a , int b) {
+    	return a - b;
+    	}
+    	
+    	public int div (int a , int b) {
+    		return a/b;
+    	}
+    }
+
+public class math {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+                 
+		totalmath tm = new totalmath();
+		tm.add(10, 20);
+		tm.mul(10, 20);
+		tm.sub(20, 10);
+		tm.div(20, 10);
+	}
+
+}

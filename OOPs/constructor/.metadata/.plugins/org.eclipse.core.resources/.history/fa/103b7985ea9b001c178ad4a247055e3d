@@ -1,0 +1,18 @@
+package mypackage;
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            product p1 = new product();
+            
+           
+            
+            p1.readData();
+            p1.readData();
+            
+            p1.writeData();
+            p1.writeData();
+	}
+
+}

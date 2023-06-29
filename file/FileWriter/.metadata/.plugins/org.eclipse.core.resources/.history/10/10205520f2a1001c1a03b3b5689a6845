@@ -1,0 +1,22 @@
+package filewriter;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Myclass {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+		FileWriter fw = new FileWriter("E:\\Eclipse\\file\\Write\\mydata.txt");
+		
+		fw.write("Shane warn is a god of leg spin,\n");
+		fw.write("HE bowls a ball of the century,\n");
+		fw.write("He is first captain to win IPL, \n");
+		
+		System.out.println("done in file");
+		fw.close();
+		
+	}
+
+}

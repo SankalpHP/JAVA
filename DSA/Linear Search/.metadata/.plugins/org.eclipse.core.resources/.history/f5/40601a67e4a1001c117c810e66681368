@@ -1,0 +1,37 @@
+package linearS;
+
+import java.util.Scanner;
+
+public class LinearS {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//variable declaration
+		int data [] = new int[] {45,67,88,99,24,57,89,92,28,39};
+		boolean isfound = false;
+		int input;
+		
+		//Read input
+		
+		Scanner obj = new Scanner(System.in);
+		System.out.println("enter a element");
+		input=Integer.parseInt(obj.nextLine());
+		
+		//logic
+		
+		for(int i = 0 ; i < data.length;i++) {
+		  	
+			if(data[i] == input) {
+				System.out.println("element is found "+ (i+1) +" at position");
+				isfound = true;
+				break;
+			}
+			if(isfound = false)
+				System.out.println("element not found");
+		}
+
+		
+	}
+
+}

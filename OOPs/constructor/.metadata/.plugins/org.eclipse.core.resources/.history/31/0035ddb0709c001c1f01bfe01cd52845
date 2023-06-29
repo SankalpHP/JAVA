@@ -1,0 +1,14 @@
+package product;
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          
+		Flipcart f1 = new Flipcart();
+		
+		f1.readData();
+		f1.PrintData();
+	}
+
+}

@@ -1,0 +1,44 @@
+package inherits;
+
+
+
+class  algebra {
+   
+	public  int  calculation(int a , int b ) {
+		return a + b ;
+	}
+	
+	public  int  calculation(float a , float b ) {
+		return (int) (a * b) ;
+	}
+}
+
+class mul extends algebra{
+	public int calculation(double a , double b ) {
+		
+		return (int) (a / b)  ;
+		
+	}
+	
+	public int calculation(int a, int b ) {
+		return  a/b;
+	}
+}
+
+
+
+public  class maths {
+  
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+      mul obj = new mul ();
+      obj.calculation(12, 13);
+		
+		
+	}
+
+}

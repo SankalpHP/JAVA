@@ -1,0 +1,26 @@
+package product;
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          Flipcart p1 = new Flipcart(null, 0, 0, null);
+          
+          p1.readData();
+          
+         
+          
+          Flipcart.printDetails();
+          
+          System.out.println("=========================================");
+          
+          Flipcart p2 = new Flipcart(null, 0, 0, null);
+           
+          p2.readData();
+          
+          
+          Flipcart.printDetails();
+          
+	}
+
+}

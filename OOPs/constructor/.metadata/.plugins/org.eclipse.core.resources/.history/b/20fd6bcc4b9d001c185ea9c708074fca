@@ -1,0 +1,72 @@
+package mypackage;
+
+abstract class shape{
+	
+	
+    public abstract void perimeter();
+    public abstract void aera();
+}
+
+class circle1 {
+	
+	
+
+	public void perimeter() {
+	
+	}
+	
+	public void aera() {
+		
+	}
+	
+}
+
+
+class triangle1 extends shape{
+	
+	public void perimeter() {
+		
+	}
+	
+	public void aera() {
+		
+	}
+	
+}
+
+class rectangle1 extends shape{
+	
+	
+	public void perimeter() {
+		
+	}
+	public void aera() {
+		
+	}
+	
+	
+}
+
+class square1 extends shape{
+	
+	
+public void perimeter() {
+		
+	}
+	public void aera() {
+		
+	}
+	
+	
+	
+}
+
+
+public class Interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package average;
+
+import java.util.Scanner;
+
+public class ave {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	  int b []= new int[5];
+	  int sum = 0;
+	  System.out.println("enter any value = ");
+	  for (int a : b ) {
+		  Scanner no = new Scanner (System.in);
+		  b[5] = no.nextInt();
+		  sum = b[5];
+		  sum = sum + sum ;
+		  System.out.println(sum);
+		  
+	  }
+	  
+	  
+	}
+
+}

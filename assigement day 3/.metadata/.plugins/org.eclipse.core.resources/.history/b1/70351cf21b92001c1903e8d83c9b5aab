@@ -1,0 +1,33 @@
+package printbyforloop;
+
+import java.util.Scanner;
+
+public class byforloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	    int a [] = new int [5];
+	    Scanner no = new Scanner(System.in);
+	    
+	    
+		for(int b = 1 ; b<= a.length ; b++) {
+			
+			System.out.println("enter a value");
+			b=no.nextInt();
+			System.out.println(b);
+			}
+		
+		
+		
+			
+		
+		}
+		
+	
+		
+		
+
+	}
+
+

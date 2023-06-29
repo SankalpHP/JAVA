@@ -1,0 +1,22 @@
+package factorial;
+
+import java.util.Scanner;
+
+public class Fact {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fact;
+		Scanner fac = new Scanner (System.in);
+		System.out.println("enter a value = ");
+		fact = fac.nextInt();
+		
+		for(int a = 1 ; a <= fact ;++a) {
+			
+			fact*=a;
+		}
+		System.out.println("Factorial = " +fact);
+	}
+
+}

@@ -1,0 +1,34 @@
+package queue;
+
+import java.util.PriorityQueue;
+
+public class Collection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           
+		PriorityQueue<Integer> que = new PriorityQueue<Integer>() ;
+		 
+		que.add(111);
+		que.add(121);
+		que.add(131);
+		que.add(141);
+		que.add(151);
+		
+		/* System.out.println(que.size());
+		System.out.println(que.poll());
+		System.out.println(que.peek());
+		System.out.println(que.size()); */
+		
+		var data = que.toArray();
+		 
+		int Max = (int) data[0];
+		
+		for(var d : data) {
+			if(Max < (int)data [0]);
+			Max = (int) d;
+		}
+		System.out.println(Max);
+	}
+
+}

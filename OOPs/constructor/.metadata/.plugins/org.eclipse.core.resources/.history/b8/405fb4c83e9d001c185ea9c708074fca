@@ -1,0 +1,29 @@
+package poly;
+
+
+ class policeSecretCode {
+	
+	private  void code() {
+		System.out.println("007");
+	}
+	
+}
+
+class Theif extends policeSecretCode  {
+	
+	public void Modcode() {
+		System.out.println("008");
+	}
+	
+}
+public class UseOfFinal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           Theif code = new Theif();
+           code.Modcode();
+		policeSecretCode code1 = new policeSecretCode();
+		code1.code();
+	}
+
+}

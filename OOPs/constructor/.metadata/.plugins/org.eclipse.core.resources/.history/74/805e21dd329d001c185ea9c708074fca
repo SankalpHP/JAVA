@@ -1,0 +1,44 @@
+package inherits;
+
+import java.util.Scanner;
+
+class  algebra {
+   
+	public  int  add(int a , int b ) {
+		return a + b ;
+	}
+	
+	public  int  mul(int a , int b ) {
+		return  (a * b) ;
+	}
+}
+
+class mul extends algebra{
+	public int div(int a , int b ) {
+		
+		return  (a / b)  ;
+		
+	}
+	
+	
+
+
+
+public static  class maths {
+  
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+     mul mu = new mul();
+     System.out.println(mu.add(10, 20));
+     System.out.println(mu.mul(10, 20));
+     System.out.println(mu.div(20, 10));
+		
+		
+	}
+
+}
+}

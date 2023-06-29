@@ -1,0 +1,31 @@
+package treeset;
+
+import java.util.TreeSet;
+
+public class Collection2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeSet<String> tree = new TreeSet<String>();
+		
+		tree.add("P90");
+		tree.add("M4");
+		tree.add("Ak");
+		tree.add("Tavor");
+		
+		tree.add("M4");
+		tree.add("Tavor");
+		tree.add("Ak");
+		tree.add("P90");
+		
+		System.out.println(tree.size());
+		
+		System.out.println("=====================================");
+		
+		for(String s : tree)
+		System.out.println(s);
+		
+	}
+
+}

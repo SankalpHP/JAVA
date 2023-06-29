@@ -1,0 +1,23 @@
+package hashmap;
+
+import java.util.HashMap;
+
+public class Hashmap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashMap<String,Integer> has = new HashMap<String,Integer>();
+		
+		has.put("english", 90);
+		has.put("maths", 100);
+		has.put("social", 80);
+		has.put("Hindi", 90);
+           
+		has.put("maths", 100);
+		has.put("social", 80);
+		
+		System.out.println(has.get("maths"));
+	}
+
+}

@@ -1,0 +1,35 @@
+package constructor;
+
+class employee{
+	String  name ;
+	int id ;
+	String address;
+	int mob ;
+	
+	public void info (String name , int id , String address, int mob ) {
+		this.name=name;
+		this.id=id;
+		this.address=address;
+		this.mob=mob;
+		
+	}
+	
+}
+
+class read extends employee{
+	public read() {
+		System.out.println();
+	}
+}
+class write extends read{
+	
+}
+
+public class Bank {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

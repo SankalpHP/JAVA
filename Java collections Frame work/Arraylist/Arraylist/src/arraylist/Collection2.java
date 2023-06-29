@@ -1,0 +1,25 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class Collection2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           
+		ArrayList<String> Arr = new  ArrayList<String>();
+		
+		Arr.add("sam");
+		Arr.add(0, "maxi");
+		Arr.add("great");
+		Arr.add("formal");
+		
+		System.out.println(Arr.clone());
+		System.out.println(Arr.contains("sam"));
+		System.out.println(Arr.size());
+		System.out.println(Arr.iterator());
+		System.out.println(Arr.hashCode());
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package stack;
+
+import java.util.Stack;
+
+public class Collection3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           
+		Stack<String> Str1 = new Stack<String>();
+		
+		Str1.push("sam");
+		Str1.push("sammuls");
+		Str1.push("munro");
+		
+		Str1.push("sam");
+		Str1.push("sammuls");
+		Str1.push("munro");
+		
+		System.out.println(Str1.size());
+		System.out.println(Str1.peek());
+		System.out.println(Str1.pop());
+		System.out.println(Str1.peek());
+		System.out.println(Str1.hashCode());
+		System.out.println(Str1.hashCode());
+	}
+
+}

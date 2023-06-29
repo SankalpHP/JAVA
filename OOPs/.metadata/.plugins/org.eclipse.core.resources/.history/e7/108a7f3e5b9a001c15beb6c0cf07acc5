@@ -1,0 +1,29 @@
+package overriding;
+
+class english {
+	public static void english () {
+		System.out.println("Hello");
+		System.out.println("good morning");
+		System.out.println("have a nice day");
+		
+	}
+	
+}
+
+class hindi extends english{
+public static void hindi() {
+	
+	System.out.println("namaste");
+	
+}
+}
+
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

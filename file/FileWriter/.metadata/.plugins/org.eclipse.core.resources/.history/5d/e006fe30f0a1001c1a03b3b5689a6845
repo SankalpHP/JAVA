@@ -1,0 +1,16 @@
+package filewriter;
+
+import java.io.File;
+
+public class FileWriter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		File f = new File("E:\\Eclipse\\file\\Write\\mydata.txt");
+           
+		FileWriter f = new FileWriter("E:\\Eclipse\\file\\Write\\mydata.txt");
+		
+	}
+
+}

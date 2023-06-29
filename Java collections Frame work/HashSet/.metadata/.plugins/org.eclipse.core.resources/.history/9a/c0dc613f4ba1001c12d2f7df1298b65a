@@ -1,0 +1,31 @@
+package hashset;
+
+import java.util.HashSet;
+
+public class Collection3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<String> ha = new HashSet<String>();
+		
+		ha.add("Max");
+		ha.add("Min");
+		ha.add("lap");
+		ha.add("light");
+		
+		ha.add("light");
+		ha.add("Min");
+		ha.add("Max");
+		ha.add("lap");
+		
+		System.out.println(ha.size());
+		System.out.println(ha.clone());
+		
+		System.out.println(ha.hashCode());
+		System.out.println(ha.clone());
+		
+
+	}
+
+}

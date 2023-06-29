@@ -1,0 +1,27 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<Integer> arrdata = new ArrayList<Integer>();
+		
+		arrdata.add(1000);
+		arrdata.add(2000);
+		arrdata.add(3000);
+		arrdata.add(4000);
+		arrdata.add(5000);
+		
+	
+		
+		System.out.println(arrdata.indexOf(2000));
+		System.out.println(arrdata.contains(4000));
+		System.out.println(arrdata.size());
+		System.out.println(arrdata.contains(6000));
+		
+	}
+
+}

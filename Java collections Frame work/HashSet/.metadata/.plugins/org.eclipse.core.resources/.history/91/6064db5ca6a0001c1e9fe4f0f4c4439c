@@ -1,0 +1,27 @@
+package hashset;
+
+import java.util.LinkedList;
+
+public class collection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+              
+		LinkedList<Integer> lin = new LinkedList<Integer>();
+		
+		lin.add(20);
+		lin.add(40);
+		lin.add(50);
+		lin.add(60);
+		lin.add(40);
+		lin.add(20);
+		lin.add(60);
+		lin.add(50;
+		
+		System.out.println(lin.size());
+		
+        for(int d:lin)
+        	System.out.println(d);
+	}
+
+}

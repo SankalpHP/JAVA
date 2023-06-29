@@ -1,0 +1,21 @@
+package treemap;
+
+import java.util.TreeMap;
+
+public class Treemap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            
+		TreeMap<String,Integer>tr = new TreeMap<String,Integer>();
+		
+		tr.put("science", 100);
+		tr.put("social", 100);
+	    tr.put("Maths", 100);
+	    tr.put("Geo", 100);
+	    tr.put("His", 100);
+	
+}
+	}
+
+

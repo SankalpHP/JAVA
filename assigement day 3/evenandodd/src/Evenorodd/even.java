@@ -1,0 +1,16 @@
+package Evenorodd;
+
+import java.util.Scanner;
+
+public class even {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           int no  ;
+           Scanner number   = new Scanner(System .in  );
+           System.out.println("enter any value = ");
+           no = number.nextInt();
+           System.out.println((no % 2 == 0)? true : false   );
+	}
+
+}

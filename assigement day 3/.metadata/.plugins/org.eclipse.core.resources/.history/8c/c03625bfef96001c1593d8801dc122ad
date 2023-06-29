@@ -1,0 +1,25 @@
+package average;
+
+import java.util.Arrays;
+import java.util.Scanner;
+public class ave {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	int a [] = new int [5];
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter a value = ");
+	for(int i = 0 ; i < a.length; i++) {
+		int number = sc.nextInt();
+		int  number2 = a[number];
+		System.out.println("avg = " + number/5);
+		
+		
+	}
+	 
+	 
+	  
+	  
+	}
+
+}

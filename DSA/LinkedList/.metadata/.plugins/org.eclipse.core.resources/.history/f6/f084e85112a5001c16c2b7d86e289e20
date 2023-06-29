@@ -1,0 +1,26 @@
+package linkedList;
+
+class node
+{
+    public int data;
+    public node next;
+}
+
+public class LinkedList2 {
+   
+	public boolean isempty()
+	{
+		private node head;
+		return (head == null);
+	}
+	
+	public void insertFirst(int data)
+	{
+		node newNode = new node();
+		newNode.data = data;
+		newNode.next = head;
+		head = newNode;
+		
+	}
+	
+}
