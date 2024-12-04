@@ -1,4 +1,5 @@
-# Java Practice and Learning Repository
+
+# Java Practice and Learning Repository  <img src = 'https://github.com/user-attachments/assets/d45f4adf-7968-496f-8bbd-0f698f2bbac5' width=50px/>
 > This repository is a collection of Java programs, challenges, and concepts designed for learning, practicing, and mastering Java programming.
 ### Repository Overview
 > The repository is structured into folders, each representing a topic, challenge, or concept in Java. It includes:
